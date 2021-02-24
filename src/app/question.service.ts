@@ -17,21 +17,25 @@ export class QuestionService {
             new TextboxQuestion({
                 key: 'Nombre completo',
                 label: 'Ingresa tu nombre',
+                placeholder: 'Ingresa tu nombre',
+                size: 'col-sm-3',
                 type: 'text',
-                order: 1
+                /* order: 1 */
             }),
             new TextboxQuestion({
                 key: 'Apellido paterno',
                 label: 'Ingresa tu apellido',
+                size: 'col-sm-3',
                 type: 'text',
-                order: 3
+                /* order: 2 */
             }),
 
             new TextboxQuestion({
                 key: 'Nombre completo',
                 label: 'Ingresa edad',
+                size: 'col-sm-2',
                 type: 'number',
-                order: 2
+                /* order: 3 */
             })
             
         ];
